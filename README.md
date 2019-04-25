@@ -1,2 +1,2 @@
-# blog
-zsj's blog
+# Initial page
+
