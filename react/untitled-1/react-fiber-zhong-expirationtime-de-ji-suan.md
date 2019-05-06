@@ -69,6 +69,12 @@ function requestCurrentTime() {
 
 这两个很简单，就是在根节点上记录子树的所有最早的过期时间和最晚的过期时间，用来记录一下过期时间的过期时间（过期时间越小，说明优先级越高）
 
+### earliestSuspendedTime, lastestSuspendedTime
+
+Fiber node因为各种原因，需要挂起的最早时间和最晚时间，
+
+#### lastestPingedTime <a id="lastestpingedtime"></a>
+
 
 
 
