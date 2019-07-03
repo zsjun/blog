@@ -18,9 +18,6 @@
 
 ## Interview
 
-* [Untitled](interview/untitled.md)
-
-## React-other
-
-* [react hooks](react-other/react-hooks.md)
+* [React hooks](interview/react-hooks/README.md)
+  * [react hooks 基本常识与问题](interview/react-hooks/react-hooks-ji-ben-chang-shi-yu-wen-ti.md)
 
