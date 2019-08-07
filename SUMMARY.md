@@ -19,5 +19,6 @@
 ## Interview
 
 * [React hooks](interview/react-hooks/README.md)
+  * [function hooks setInterval](interview/react-hooks/function-hooks-setinterval.md)
   * [react hooks 基本常识与问题](interview/react-hooks/react-hooks-ji-ben-chang-shi-yu-wen-ti.md)
 
