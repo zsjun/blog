@@ -1,8 +1,6 @@
 # function hooks setInterval
 
 ## setInterval 问题
-zsjun
-
 
 ```text
 import React, { useState, useEffect, useRef } from "react";
