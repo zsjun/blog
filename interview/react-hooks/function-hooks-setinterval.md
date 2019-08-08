@@ -1,6 +1,8 @@
 # function hooks setInterval
 
 ## setInterval 问题
+zsjun
+
 
 ```text
 import React, { useState, useEffect, useRef } from "react";
@@ -45,7 +47,7 @@ setInterval(() => {
 
 可以看到一直没有得到执行就会被清除
 
- ![image.png](https://upload-images.jianshu.io/upload_images/4432476-6f43a26ab98fb712.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240) 
+ ![image.png](https://upload-images.jianshu.io/upload_images/4432476-6f43a26ab98fb712.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 这是因为每次render，都会执行useEffect，但是如果这样的代码的话
 
@@ -75,7 +77,7 @@ ReactDOM.render(<Counter />, rootElement);
 
 可以看到它会只执行一次，因为setCount只是取得了第一次传入的count，也就是0，所以数字就一直为1,但是循环还是在执行
 
- ![image.png](https://upload-images.jianshu.io/upload_images/4432476-69c67ef5478b6c6e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240) 
+ ![image.png](https://upload-images.jianshu.io/upload_images/4432476-69c67ef5478b6c6e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 可以参考如下链接进行使用setInterval [https://overreacted.io/making-setinterval-declarative-with-react-hooks/](https://overreacted.io/making-setinterval-declarative-with-react-hooks/)
 
