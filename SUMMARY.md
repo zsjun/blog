@@ -18,7 +18,7 @@
 * [React hooks](react/react-hooks/README.md)
   * [function hooks setInterval](react/react-hooks/function-hooks-setinterval.md)
   * [react hooks 基本常识与问题](react/react-hooks/react-hooks-ji-ben-chang-shi-yu-wen-ti.md)
-  * [use jest debugger reacet source](react/react-hooks/react-source-debugger.md)
+  * [use react jest test example debugger reacet source](react/react-hooks/react-source-debugger.md)
 ## Interview
 
 * [session](interview/session.md)
