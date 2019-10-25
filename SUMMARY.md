@@ -24,5 +24,5 @@
 * [session](interview/session.md)
 * [Promise](interview/promise/README.md)
   * [fetch](interview/promise/fetch.md)
-
+* [其它](other/README.md)
 
