@@ -91,4 +91,15 @@
     <tr><table></table></tr>
 </table>
 ```
+* 5 window的outlook客户端会自动添加标签<br/>
+在window的客户端，不知道为什么当你的表格中的内容是www.baidu.com这种的时候，就会自动给你添加一个a标签来包裹www.baidu.com,会变成这样的代码
+```
+<p style="margin-top:0;margin-bottom:0;line-height:28.5pt;"><span lang="en-US" style="color: rgb(51, 51, 51); font-size: 9pt; font-family: 微软雅黑, sans-serif, serif, EmojiFont;"><a href="http://www.baidu.com" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable" id="LPlnk991385">www.baidu.com</a>
+</span></p>
+```
+当然如果你的域名不长的时候是可以的，但是如果你的域名特别长的时候，就会把整个表格的样式给撑乱，比如类似这样，就算你设置了自动断行，也没什么用。
 
+![](https://user-gold-cdn.xitu.io/2019/11/7/16e4613345796d69?w=716&h=106&f=png&s=14072)
+
+解决办法：<br/>
+就是在td上加上 word-wrap:break-word;word-break:break-all;这样当内容超出样式的时候，就会自动断行。
