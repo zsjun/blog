@@ -4,20 +4,35 @@ module.exports = {
   base: "/blog/",
   themeConfig: {
     sidebar: {
-      "/node/": [["", "node目录"], "path", ["stream", "stream"]],
+      "/node/": [],
       "/interview/": ["fe-dictionary", "fetch", "session"],
       "/web/": [
-        ["", "前端"],
         {
-          title: "css",
-          name: "css",
+          title: "react",
+          name: "react",
           collabsable: false,
           children: [
-            ["css/", "目录"],
-            ["css/1", "css常考面试题"],
+            "react/requestwork",
+            "react/react-fiber-node-jie-gou",
+            "react/react-fiber-zhong-expirationtime-de-ji-suan",
+            "react/react-hooks-ji-ben-chang-shi-yu-wen-ti",
+            "react/react-source-debugger",
+            "react/requestwork",
+            "react/schedulework",
+            "react/typeerror-super-expression-must-either-be-null-or-a-function-not-undefined",
+            "react/webpack-da-bao-wen-ti",
+            "react/yi-ci-gou-xie-de-bug-cha-zhao-ji-lu",
+            "react/zhong-wen-ming-ming-de-svg-wen-jian-zhuan-huan-wei-ying-wen-ming-ming-de-svg",
           ],
         },
+        // {
+        //   title: "css",
+        //   name: "css",
+        //   collabsable: false,
+        //   children: [],
+        // },
       ],
+      "/other/": ["", "email", "nginx"],
     },
     // sidebar: "auto",
     nav: [
@@ -26,12 +41,12 @@ module.exports = {
       {
         text: "前端",
         items: [
-          { text: "html", link: "/web/html/" },
-          { text: "css", link: "/web/css/" },
-          { text: "js", link: "/web/js/" },
+          { text: "react", link: "/web/react/" },
+          // { text: "js", link: "/web/js/" },
+          // { text: "css", link: "/web/css/" },
         ],
       },
-      { text: "数据库", link: "/database/" },
+      // { text: "数据库", link: "/database/" },
       { text: "后端", link: "/rearend/" },
       { text: "面试问题", link: "/interview/" },
       { text: "其它", link: "/other/" },
