@@ -1,0 +1,19 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/zsjun/blog.git",
+  "author": "zsj <zoushijun@threatbook.cn>",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.5.1",
+    "@vuepress/plugin-nprogress": "^1.5.1"
+  },
+  "dependencies": {
+    "vuepress": "^1.5.1"
+  }
+}
