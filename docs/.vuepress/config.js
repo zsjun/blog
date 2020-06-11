@@ -1,6 +1,7 @@
 module.exports = {
   title: "云旭泉的博客",
   description: "专注全栈技术分享",
+  base: "/blog/",
   themeConfig: {
     sidebar: {
       "/node/": [["", "node目录"], "path", ["stream", "stream"]],
