@@ -1,4 +1,6 @@
-# fetch 小 tip
+# Fetch error
+
+# fetch error fix
 
 最近在用 fetch 的时候，发现一个问题，就是接口返回时 200 的，但是却看不到任何的返回信息，如下所示：<br/>
 <img :src="$withBase('/images/fetch_error.png')" alt="foo">

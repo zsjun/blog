@@ -67,7 +67,7 @@ export default function Dashboard(props) {
 }
 ```
 
-结果会出现如下情况： ![image.png](https://upload-images.jianshu.io/upload_images/4432476-bf9527301474b041.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240) 可以看到上面，执行了一次卸载钩子函数，执行了两次加载完成函数 但是如果router的代码，改成如下的情况：
+结果会出现如下情况： ![image.png](/images/react-hooks.png) 可以看到上面，执行了一次卸载钩子函数，执行了两次加载完成函数 但是如果router的代码，改成如下的情况：
 
 ```text
 <Route
