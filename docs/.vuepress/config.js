@@ -23,6 +23,7 @@ module.exports = {
             "react/webpack-da-bao-wen-ti",
             "react/yi-ci-gou-xie-de-bug-cha-zhao-ji-lu",
             "react/zhong-wen-ming-ming-de-svg-wen-jian-zhuan-huan-wei-ying-wen-ming-ming-de-svg",
+            "react/redux",
           ],
         },
         // {
