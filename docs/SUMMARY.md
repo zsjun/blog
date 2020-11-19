@@ -25,4 +25,8 @@
 * [Promise](interview/promise/README.md)
   * [fetch](interview/promise/fetch.md)
 * [其它](other/README.md)
+## 算法
+
+* [贪心算法](algorithm/greed.md)
+
 
