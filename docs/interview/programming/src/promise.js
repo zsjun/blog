@@ -162,7 +162,10 @@ class MyPromise {
 new MyPromise((resolve, reject) => {
   reject("测试错误");
 })
-  .then((res) => {})
+  .then(
+    (res) => {},
+    (val) => val
+  )
   .catch((err) => {
     console.log("错误：" + err);
   });
