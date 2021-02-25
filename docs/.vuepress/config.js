@@ -5,7 +5,7 @@ module.exports = {
   themeConfig: {
     sidebar: {
       "/node/": [],
-      "/interview/": ["fe-dictionary", "fetch", "session", "leetcode"],
+      "/interview/": ["fe-dictionary", "fetch", "session", "leetcode", "设计模式"],
       "/web/": [
         {
           title: "react",
