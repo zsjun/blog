@@ -1,3 +1,11 @@
+/*
+ * @Description:
+ * @Author: zsj
+ * @Date: 2020-06-11 11:08:36
+ * @LastEditTime: 2021-07-07 20:50:02
+ * @LastEditors: zsj
+ * @Usage:
+ */
 module.exports = {
   title: "云旭泉的博客",
   description: "专注全栈技术分享",
@@ -5,7 +13,13 @@ module.exports = {
   themeConfig: {
     sidebar: {
       "/node/": [],
-      "/interview/": ["fe-dictionary", "fetch", "session", "leetcode", "设计模式"],
+      "/interview/": [
+        "fe-dictionary",
+        "fetch",
+        "session",
+        "leetcode",
+        "设计模式",
+      ],
       "/web/": [
         {
           title: "react",
@@ -34,7 +48,7 @@ module.exports = {
         //   children: [],
         // },
       ],
-      "/other/": ["", "email", "nginx"],
+      "/other/": ["", "email", "nginx", "github贡献代码"],
     },
     // sidebar: "auto",
     nav: [
