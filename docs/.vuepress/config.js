@@ -2,7 +2,7 @@
  * @Description:
  * @Author: zsj
  * @Date: 2020-06-11 11:08:36
- * @LastEditTime: 2021-07-07 20:50:02
+ * @LastEditTime: 2021-07-08 10:31:39
  * @LastEditors: zsj
  * @Usage:
  */
@@ -41,6 +41,12 @@ module.exports = {
             "react/dll",
           ],
         },
+        {
+          title: "Javascript",
+          name: "Javascript",
+          collabsable: false,
+          children: ["Javascript/x-speedsheet源码解读"],
+        },
         // {
         //   title: "css",
         //   name: "css",
@@ -58,6 +64,7 @@ module.exports = {
         text: "前端",
         items: [
           { text: "react", link: "/web/react/" },
+          { text: "Javascript", link: "/web/javascript/" },
           // { text: "js", link: "/web/js/" },
           // { text: "css", link: "/web/css/" },
         ],
