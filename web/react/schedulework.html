@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>scheduleWork | 云旭泉的博客</title>
+    <meta name="generator" content="VuePress 1.5.1">
+    
+    <meta name="description" content="专注全栈技术分享">
+    <link rel="preload" href="/blog/assets/css/0.styles.39c0576a.css" as="style"><link rel="preload" href="/blog/assets/js/app.9b8d30b8.js" as="script"><link rel="preload" href="/blog/assets/js/2.0a93f5dd.js" as="script"><link rel="preload" href="/blog/assets/js/49.eb09b8f9.js" as="script"><link rel="prefetch" href="/blog/assets/js/10.f798a2d8.js"><link rel="prefetch" href="/blog/assets/js/11.d54a8208.js"><link rel="prefetch" href="/blog/assets/js/12.e0a98157.js"><link rel="prefetch" href="/blog/assets/js/13.87c877fd.js"><link rel="prefetch" href="/blog/assets/js/14.d7c59895.js"><link rel="prefetch" href="/blog/assets/js/15.6277aecb.js"><link rel="prefetch" href="/blog/assets/js/16.01e8b1ad.js"><link rel="prefetch" href="/blog/assets/js/17.712b9225.js"><link rel="prefetch" href="/blog/assets/js/18.522ef26f.js"><link rel="prefetch" href="/blog/assets/js/19.5445ecf3.js"><link rel="prefetch" href="/blog/assets/js/20.47f43b7b.js"><link rel="prefetch" href="/blog/assets/js/21.9f8c275f.js"><link rel="prefetch" href="/blog/assets/js/22.a756c658.js"><link rel="prefetch" href="/blog/assets/js/23.b4bcee6c.js"><link rel="prefetch" href="/blog/assets/js/24.8ec49f71.js"><link rel="prefetch" href="/blog/assets/js/25.775adcca.js"><link rel="prefetch" href="/blog/assets/js/26.ee451341.js"><link rel="prefetch" href="/blog/assets/js/27.d3f4e021.js"><link rel="prefetch" href="/blog/assets/js/28.b9c8da82.js"><link rel="prefetch" href="/blog/assets/js/29.d8e3f233.js"><link rel="prefetch" href="/blog/assets/js/3.ffb23f29.js"><link rel="prefetch" href="/blog/assets/js/30.931a269f.js"><link rel="prefetch" href="/blog/assets/js/31.0125aec6.js"><link rel="prefetch" href="/blog/assets/js/32.bf0f1052.js"><link rel="prefetch" href="/blog/assets/js/33.1b679a21.js"><link rel="prefetch" href="/blog/assets/js/34.b5543fb7.js"><link rel="prefetch" href="/blog/assets/js/35.0bfad671.js"><link rel="prefetch" href="/blog/assets/js/36.de9fee6a.js"><link rel="prefetch" href="/blog/assets/js/37.eaaf3327.js"><link rel="prefetch" href="/blog/assets/js/38.1e0f9389.js"><link rel="prefetch" href="/blog/assets/js/39.5ec5bcd4.js"><link rel="prefetch" href="/blog/assets/js/4.a0155084.js"><link rel="prefetch" href="/blog/assets/js/40.a851c68a.js"><link rel="prefetch" href="/blog/assets/js/41.ce3ebcca.js"><link rel="prefetch" href="/blog/assets/js/42.d7a988ab.js"><link rel="prefetch" href="/blog/assets/js/43.34c1ed44.js"><link rel="prefetch" href="/blog/assets/js/44.8f6680b9.js"><link rel="prefetch" href="/blog/assets/js/45.0fbc2ae1.js"><link rel="prefetch" href="/blog/assets/js/46.fd04d742.js"><link rel="prefetch" href="/blog/assets/js/47.1ec9c3da.js"><link rel="prefetch" href="/blog/assets/js/48.081d87ac.js"><link rel="prefetch" href="/blog/assets/js/5.e569c75c.js"><link rel="prefetch" href="/blog/assets/js/50.7d1733bd.js"><link rel="prefetch" href="/blog/assets/js/51.0c621372.js"><link rel="prefetch" href="/blog/assets/js/52.63757a91.js"><link rel="prefetch" href="/blog/assets/js/53.6d33b67a.js"><link rel="prefetch" href="/blog/assets/js/54.d6014ffc.js"><link rel="prefetch" href="/blog/assets/js/6.eb41542c.js"><link rel="prefetch" href="/blog/assets/js/7.f36d4014.js"><link rel="prefetch" href="/blog/assets/js/8.5980153c.js"><link rel="prefetch" href="/blog/assets/js/9.cadab512.js">
+    <link rel="stylesheet" href="/blog/assets/css/0.styles.39c0576a.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/blog/" class="home-link router-link-active"><!----> <span class="site-name">云旭泉的博客</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/blog/" class="nav-link">
+  主页
+</a></div><div class="nav-item"><a href="/blog/node/" class="nav-link">
+  node
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端" class="dropdown-title"><span class="title">前端</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blog/web/react/" class="nav-link router-link-active">
+  react
+</a></li><li class="dropdown-item"><!----> <a href="/blog/web/js/" class="nav-link">
+  js
+</a></li></ul></div></div><div class="nav-item"><a href="/blog/rearend/" class="nav-link">
+  后端
+</a></div><div class="nav-item"><a href="/blog/interview/" class="nav-link">
+  面试问题
+</a></div><div class="nav-item"><a href="/blog/other/" class="nav-link">
+  其它
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/blog/" class="nav-link">
+  主页
+</a></div><div class="nav-item"><a href="/blog/node/" class="nav-link">
+  node
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端" class="dropdown-title"><span class="title">前端</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blog/web/react/" class="nav-link router-link-active">
+  react
+</a></li><li class="dropdown-item"><!----> <a href="/blog/web/js/" class="nav-link">
+  js
+</a></li></ul></div></div><div class="nav-item"><a href="/blog/rearend/" class="nav-link">
+  后端
+</a></div><div class="nav-item"><a href="/blog/interview/" class="nav-link">
+  面试问题
+</a></div><div class="nav-item"><a href="/blog/other/" class="nav-link">
+  其它
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>js</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>react</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/blog/web/react/requestwork.html" class="sidebar-link">requestwork</a></li><li><a href="/blog/web/react/react-fiber-node-jie-gou.html" class="sidebar-link">React Fiber node 结构</a></li><li><a href="/blog/web/react/react-fiber-zhong-expirationtime-de-ji-suan.html" class="sidebar-link">React fiber 中expirationTime 的计算</a></li><li><a href="/blog/web/react/react-hooks-ji-ben-chang-shi-yu-wen-ti.html" class="sidebar-link">react hooks 基本常识与问题</a></li><li><a href="/blog/web/react/react-source-debugger.html" class="sidebar-link">/web/react/react-source-debugger.html</a></li><li><a href="/blog/web/react/requestwork.html" class="sidebar-link">requestwork</a></li><li><a href="/blog/web/react/schedulework.html" aria-current="page" class="active sidebar-link">scheduleWork</a></li><li><a href="/blog/web/react/typeerror-super-expression-must-either-be-null-or-a-function-not-undefined.html" class="sidebar-link">TypeError: Super expression must either be null or a function, not undefined</a></li><li><a href="/blog/web/react/webpack-da-bao-wen-ti.html" class="sidebar-link">webpack 打包问题</a></li><li><a href="/blog/web/react/yi-ci-gou-xie-de-bug-cha-zhao-ji-lu.html" class="sidebar-link">一次狗血的bug查找记录</a></li><li><a href="/blog/web/react/zhong-wen-ming-ming-de-svg-wen-jian-zhuan-huan-wei-ying-wen-ming-ming-de-svg.html" class="sidebar-link">中文命名的svg文件转换为英文命名的svg</a></li><li><a href="/blog/web/react/dll.html" class="sidebar-link">npm run dll 引发的问题</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="schedulework"><a href="#schedulework" class="header-anchor">#</a> scheduleWork</h1> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">function</span> <span class="token function">scheduleWork</span><span class="token punctuation">(</span><span class="token parameter">fiber<span class="token punctuation">,</span> expirationTime</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token comment">// 找到root,设置更新节点的所有父节点的expirationTime为当前的expirationTime，除非父节点的expirationTime</span>
+      <span class="token comment">// 大于当期的expirationTime，设置父节点的childExpirationTime，除非父节点的childExpirationTime大于当前的</span>
+      <span class="token comment">// expirationTime,然后返回Fiber root节点</span>
+      <span class="token keyword">var</span> root <span class="token operator">=</span> <span class="token function">scheduleWorkToRoot</span><span class="token punctuation">(</span>fiber<span class="token punctuation">,</span> expirationTime<span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token comment">// root 为空报错</span>
+      <span class="token keyword">if</span> <span class="token punctuation">(</span>root <span class="token operator">===</span> <span class="token keyword">null</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token punctuation">{</span>
+          <span class="token keyword">switch</span> <span class="token punctuation">(</span>fiber<span class="token punctuation">.</span>tag<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token keyword">case</span> ClassComponent<span class="token operator">:</span>
+              <span class="token function">warnAboutUpdateOnUnmounted</span><span class="token punctuation">(</span>fiber<span class="token punctuation">,</span> <span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+              <span class="token keyword">break</span><span class="token punctuation">;</span>
+            <span class="token keyword">case</span> FunctionComponent<span class="token operator">:</span>
+            <span class="token keyword">case</span> ForwardRef<span class="token operator">:</span>
+            <span class="token keyword">case</span> MemoComponent<span class="token operator">:</span>
+            <span class="token keyword">case</span> SimpleMemoComponent<span class="token operator">:</span>
+              <span class="token function">warnAboutUpdateOnUnmounted</span><span class="token punctuation">(</span>fiber<span class="token punctuation">,</span> <span class="token boolean">false</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+              <span class="token keyword">break</span><span class="token punctuation">;</span>
+          <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+        <span class="token keyword">return</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span>
+      <span class="token comment">// 现在没有工作，不分render和commit，且有优先级比较低的任务在等待执行，如果当前的expirationTime</span>
+      <span class="token comment">// 更大，说明优先级更高，则打断当前节点，执行优先级更高的任务</span>
+      <span class="token keyword">if</span> <span class="token punctuation">(</span>
+        <span class="token operator">!</span>isWorking <span class="token operator">&amp;&amp;</span>
+        nextRenderExpirationTime <span class="token operator">!==</span> NoWork <span class="token operator">&amp;&amp;</span>
+        expirationTime <span class="token operator">&gt;</span> nextRenderExpirationTime
+      <span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token comment">// This is an interruption. (Used for performance tracking.)</span>
+        interruptedBy <span class="token operator">=</span> fiber<span class="token punctuation">;</span>
+        <span class="token function">resetStack</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span>
+      <span class="token comment">// 更新root的过期时间</span>
+      <span class="token function">markPendingPriorityLevel</span><span class="token punctuation">(</span>root<span class="token punctuation">,</span> expirationTime<span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token keyword">if</span> <span class="token punctuation">(</span>
+        <span class="token comment">// If we're in the render phase, we don't need to schedule this root</span>
+        <span class="token comment">// for an update, because we'll do it before we exit...</span>
+        <span class="token operator">!</span>isWorking <span class="token operator">||</span>
+        isCommitting$<span class="token number">1</span> <span class="token operator">||</span>
+        <span class="token comment">// ...unless this is a different root than the one we're rendering.</span>
+        nextRoot <span class="token operator">!==</span> root
+      <span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">var</span> rootExpirationTime <span class="token operator">=</span> root<span class="token punctuation">.</span>expirationTime<span class="token punctuation">;</span>
+        <span class="token function">requestWork</span><span class="token punctuation">(</span>root<span class="token punctuation">,</span> rootExpirationTime<span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span>
+      <span class="token keyword">if</span> <span class="token punctuation">(</span>nestedUpdateCount <span class="token operator">&gt;</span> <span class="token constant">NESTED_UPDATE_LIMIT</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token comment">// subsequent 后来的</span>
+        <span class="token comment">// Reset this back to zero so subsequent updates don't throw.</span>
+        nestedUpdateCount <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+        <span class="token function">invariant</span><span class="token punctuation">(</span>
+          <span class="token boolean">false</span><span class="token punctuation">,</span>
+          <span class="token string">&quot;Maximum update depth exceeded. This can happen when a component repeatedly calls setState inside componentWillUpdate or componentDidUpdate. React limits the number of nested updates to prevent infinite loops.&quot;</span>
+        <span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/blog/web/react/requestwork.html" class="prev">
+        requestwork
+      </a></span> <span class="next"><a href="/blog/web/react/typeerror-super-expression-must-either-be-null-or-a-function-not-undefined.html">
+        TypeError: Super expression must either be null or a function, not undefined
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/blog/assets/js/app.9b8d30b8.js" defer></script><script src="/blog/assets/js/2.0a93f5dd.js" defer></script><script src="/blog/assets/js/49.eb09b8f9.js" defer></script>
+  </body>
+</html>
