@@ -22,9 +22,29 @@ module.exports = {
       ],
       "/web/": [
         {
+          title: "js",
+          name: "js",
+          collabsable: true,
+          children: [
+            // "react/requestwork",
+            // "react/react-fiber-node-jie-gou",
+            // "react/react-fiber-zhong-expirationtime-de-ji-suan",
+            // "react/react-hooks-ji-ben-chang-shi-yu-wen-ti",
+            // "react/react-source-debugger",
+            // "react/requestwork",
+            // "react/schedulework",
+            // "react/typeerror-super-expression-must-either-be-null-or-a-function-not-undefined",
+            // "react/webpack-da-bao-wen-ti",
+            // "react/yi-ci-gou-xie-de-bug-cha-zhao-ji-lu",
+            // "react/zhong-wen-ming-ming-de-svg-wen-jian-zhuan-huan-wei-ying-wen-ming-ming-de-svg",
+            // "react/dll",
+            "js/x-speedsheet源码解读",
+          ],
+        },
+        {
           title: "react",
           name: "react",
-          collabsable: false,
+          collabsable: true,
           children: [
             "react/requestwork",
             "react/react-fiber-node-jie-gou",
@@ -37,15 +57,10 @@ module.exports = {
             "react/webpack-da-bao-wen-ti",
             "react/yi-ci-gou-xie-de-bug-cha-zhao-ji-lu",
             "react/zhong-wen-ming-ming-de-svg-wen-jian-zhuan-huan-wei-ying-wen-ming-ming-de-svg",
-            "react/redux",
             "react/dll",
+            // "react/dll",
+            // ,
           ],
-        },
-        {
-          title: "Javascript",
-          name: "Javascript",
-          collabsable: false,
-          children: ["Javascript/x-speedsheet源码解读"],
         },
         // {
         //   title: "css",
@@ -54,6 +69,14 @@ module.exports = {
         //   children: [],
         // },
       ],
+      // "/web": [
+      //   {
+      //     title: "Javascript",
+      //     name: "Javascript",
+      //     collabsable: false,
+      //     children: ["Javascript/x-speedsheet源码解读"],
+      //   },
+      // ],
       "/other/": ["", "email", "nginx", "github贡献代码"],
     },
     // sidebar: "auto",
@@ -64,7 +87,7 @@ module.exports = {
         text: "前端",
         items: [
           { text: "react", link: "/web/react/" },
-          { text: "Javascript", link: "/web/Javascript/" },
+          { text: "js", link: "/web/js/" },
           // { text: "js", link: "/web/js/" },
           // { text: "css", link: "/web/css/" },
         ],
