@@ -64,7 +64,7 @@ module.exports = {
         text: "前端",
         items: [
           { text: "react", link: "/web/react/" },
-          { text: "Javascript", link: "/web/javascript/" },
+          { text: "Javascript", link: "/web/Javascript/" },
           // { text: "js", link: "/web/js/" },
           // { text: "css", link: "/web/css/" },
         ],
